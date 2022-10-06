@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<table>
+	<thead>
+		<th>state</th>
+		<th>city</th>
+		<th>productname</th>
+	
+	</thead>
+	<tbody id="tbody1">
+		
+	</tbody>
+
+</table>
+
+	<!--Firebase Libraries-->
+<script src="https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.9/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.9/firebase-database.js"></script> 
+
+	<script id="MainScript">
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC42OMXTrj3oGg1YYvIOYtb8VuJ7jVl5qY",
+    authDomain: "lost-item-e3e86.firebaseapp.com",
+    databaseURL: "https://lost-item-e3e86-default-rtdb.firebaseio.com",
+    projectId: "lost-item-e3e86",
+    storageBucket: "lost-item-e3e86.appspot.com",
+    messagingSenderId: "1064669322262",
+    appId: "1:1064669322262:web:7121c0b0d636f97cc22937"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+  function SelectAllData() {
+  		firebase.database().ref('lostitem').once('value',
+  			function(Allrecords){
+  				Allrecords.forEach(
+  					function(CurrentRecord)
+  					{
+  						var state = CurrentRecord.val().state;
+  						var city = CurrentRecord.val().city;
+  						var productname = CurrentRecord.val().productname;
+  						AddItemsToTable(state,city,productname);
+  					}
+  				);
+  			});
+  }
+
+window.onload = SelectAllData;
+
+function AddItemsToTable(state,city,productname)
+{
+	var tbody = document.getElementById('tbody1');
+	var trow = document.createElement('tr');
+	var td1 = document.createElement('td');
+	var td2 = document.createElement('td');
+	var td3 = document.createElement('td');
+	td1.innerHTML= state;
+	td2.innerHTML = city;
+	td3.innerHTML = productname;
+	trow.appendChild(td1);
+	trow.appendChild(td2);
+	trow.appendChild(td3);
+	tbody.appendChild(trow);
+}
+
+	</script>
+
+</body>
+</html>

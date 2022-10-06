@@ -1,0 +1,38 @@
+[12-Sep-2022 07:03:19 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[12-Sep-2022 07:03:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home3/blood33a/public_html/certificate/index.php:126
+Stack trace:
+#0 {main}
+  thrown in /home3/blood33a/public_html/certificate/index.php on line 126
+[12-Sep-2022 07:07:14 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[12-Sep-2022 07:07:16 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home3/blood33a/public_html/certificate/index.php:127
+Stack trace:
+#0 {main}
+  thrown in /home3/blood33a/public_html/certificate/index.php on line 127
+[12-Sep-2022 07:09:33 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[12-Sep-2022 07:09:35 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home3/blood33a/public_html/certificate/index.php:127
+Stack trace:
+#0 {main}
+  thrown in /home3/blood33a/public_html/certificate/index.php on line 127
+[12-Sep-2022 07:18:16 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[12-Sep-2022 07:18:58 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[12-Sep-2022 08:38:36 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[12-Sep-2022 08:39:34 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:22:10 UTC] PHP Fatal error:  Uncaught TypeError: imagecolorallocate(): Argument #1 ($image) must be of type GdImage, bool given in /home3/blood33a/public_html/certificate/index.php:65
+Stack trace:
+#0 /home3/blood33a/public_html/certificate/index.php(65): imagecolorallocate(false, 205, 245, 255)
+#1 {main}
+  thrown in /home3/blood33a/public_html/certificate/index.php on line 65
+[16-Sep-2022 09:23:18 UTC] PHP Fatal error:  Uncaught TypeError: imagecolorallocate(): Argument #1 ($image) must be of type GdImage, bool given in /home3/blood33a/public_html/certificate/index.php:65
+Stack trace:
+#0 /home3/blood33a/public_html/certificate/index.php(65): imagecolorallocate(false, 205, 245, 255)
+#1 {main}
+  thrown in /home3/blood33a/public_html/certificate/index.php on line 65
+[16-Sep-2022 09:25:18 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:29:12 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:29:34 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:30:02 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:30:27 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:30:54 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:31:13 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:31:34 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115
+[16-Sep-2022 09:34:34 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home3/blood33a/public_html/certificate/index.php on line 115

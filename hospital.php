@@ -1,250 +1,251 @@
+<?php
+session_start();
+if (isset($_SESSION['hospital_id'])) {
+  header("location: prescription.php");
+}
+// header specify the page 
+$header = 'hospital';
+?>
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Blood Donation</title>
-    
-    <script data-ad-client="ca-pub-9719935806824171" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-     <link rel = "icon" href = "front_page/img/logo.jpg"
-        type = "image/x-icon"> 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+<html lang="en" data-ng-app="website">
 
-    <link rel="stylesheet" href="front_page/hospital/css2/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="front_page/hospital/css2/animate.css">
-    
-    <link rel="stylesheet" href="front_page/hospital/css2/owl.carousel.min.css">
-    <link rel="stylesheet" href="front_page/hospital/css2/owl.theme.default.min.css">
-    <link rel="stylesheet" href="front_page/hospital/css2/magnific-popup.css">
+<head>
+  <meta charset="utf-8" />
+  <title>Bloodanytime | Donor Registration</title>
+  <link rel="SHORTCUT ICON" href="mt-demo/79800/79832/mt-content/uploads/2019/04/favicon-1802.ico?_build=1635952195" type="image/vnd.microsoft.icon" />
+  <link rel="canonical" href="https://template79832.motopreview.com/appointment/" />
+  <meta property="og:title" content="Donor Registeration" />
+  <meta property="og:url" content="https://template79832.motopreview.com/appointment/" />
+  <meta property="og:type" content="website" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="Blood Any Time logo/1.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Font-->
+  <link rel="stylesheet" type="text/css" href="mt-includes/hos_css/opensans-font.css">
+  <link rel="stylesheet" type="text/css" href="mt-includes/hos_fonts/line-awesome/css/line-awesome.min.css">
+  <!-- Jquery -->
+  <link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+  <!-- Main Style Css -->
+  <link rel="stylesheet" href="mt-includes/hos_css/style.css" />
 
-    <link rel="stylesheet" href="front_page/hospital/css2/aos.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="https://template79832.motopreview.com/mt-includes/fonts/fontawesome-webfont.woff2?v=4.7.0" />
+  <link rel="stylesheet" href="mt-includes/css/assets.min.css?_build=1633339793" />
+  <style>
+    @import url(//fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic|Poppins:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic&subset=latin);
+  </style>
+  <link rel="stylesheet" href="mt-demo/79800/79832/mt-content/assets/styles.css?_build=1632936245" id="moto-website-style" />
+  <link rel="stylesheet" href="src/css/styles.css">
+   <script src="src/js/jquery.min.js" type="text/javascript"></script>
+   <script src="src/js/script.js"></script>
+   
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7768195495845816"
+     crossorigin="anonymous"></script>
+</head>
 
-    <link rel="stylesheet" href="front_page/hospital/css2/ionicons.min.css">
-    
-    <link rel="stylesheet" href="front_page/hospital/css2/flaticon.css">
-    <link rel="stylesheet" href="front_page/hospital/css2/icomoon.css">
-    <link rel="stylesheet" href="front_page/hospital/css2/style.css">
-    <link rel="stylesheet" href="hr/css/top_nav.css">
-    <script data-ad-client="ca-pub-9494752717912198" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-    
-                         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-    <link rel="stylesheet" type="text/css" href="hr//header/head.css">
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    
-  </head>
-  <body>
-	 
-	    <!-- END starts -->
-	     <nav class="navbar navbar-expand-custom navbar-mainbg">
-        <a class="navbar-brand navbar-logo" href="index.php">Blood Donation</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.php"><i class="fas fa-home"></i>Home</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="about.php"><i class="far fa-address-card"></i>About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="hospital.php"><i class="far
-                        fa-hospital"></i>Hospital</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.php"><i class="fas fa-file-signature"></i>Register as Donor</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="user_login.php"><i class="fas fa-sign-in-alt"></i>Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="hospital_registration.php"><i class="fas fa-briefcase-medical"></i>Hospital Registration</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.php"><i class="fas fa-phone-square-alt"></i>Contact</a>
-                </li>
-
-            </ul>
-        </div>
-    </nav>
-<!--<div class="topnav" id="myTopnav">
-
-  <a  href="index.php">Home</a>
-  <a href="about.php">About</a>
-  <a  class="active" href="hospital.html">Hospital</a>
-  <a href="contact.php">Contact</a>
-  <a href="register.php">Register as Donor</a>
-  <a href="hospital_registration.php">Hospital Registration</a>
- 
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>-->
-    <!-- END nav -->
-    <br>
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');no-repeat;">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Hospitals</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Hospital <i class="ion-ios-arrow-forward"></i></span></p>
+<body class="moto-background moto-website_live">
+  <div class="page">
+    <?php include_once 'component/header.php'; ?>
+    <section id="section-content" class="content page-12 moto-section" data-widget="section" data-container="section">
+      <div class="moto-widget moto-widget-block moto-bg-color_custom4 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large moto-spacing-left-auto" data-widget="block" data-spacing="lala" style="
+            background-image: url(mt-demo/79800/79832/mt-content/uploads/2019/04/mt-1802-content-bg05.jpg);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+          " data-bg-image="2019/04/mt-1802-content-bg05.jpg" data-bg-position="top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="moto-cell col-sm-12" data-container="container">
+              <div class="moto-widget moto-widget-row row-fixed moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+                <div class="container-fluid">
+                  <div class="row" data-container="container">
+                    <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+                      <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+                        <div class="moto-widget-text-content moto-widget-text-editable">
+                          <h1 class="moto-text_system_5">
+                            Hospital Registration
+                          </h1>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      
+      
+      
+      <div class="page-content">
+        <div class="form-v4-content">
+          <div class="form-left">
+            <h2>Terms and Conditions</h2>
+
+            <li> This website is developed keeping all the necessary points related to user convenience and ease. </li>
+            <br>
+            <li>This website is secured and keeps all your data and information safe. </li><br>
+            <li> This website is linked to different hospitals and various donors , hence do not involve any kind of
+              amalgamation and maintains complete transparency. </li><br>
+            <li> This website act as an interface between the two, it has nothing to do with receiver and donor end
+              individually. </li><br>
+            <li> This site is just to help and avail various hospitals with as many donors as possible. </li><br>
+            <li><b>If in case any miscommunication happens between both the parties this website and Its member are not
+                liable for it.</b></li><br>
+            <li> Any donor making registration on this website is himself answerable and responsible for any kind of
+              commitment done to receiver end. </li><br>
+            <li>The hospitals working in partnership with this site shouldn't be dependable on any kind of move as this
+              site doesn't promises anything ,it's just a mode of communication. </li><br>
+          </div>
+          <form class="form-detail" method="POST" id="hospital_registration">
+            <h2>REGISTRATION FORM</h2>
+            <div class="form-row">
+              <label for="hospital_name">Hospital Name</label>
+              <input type="text" class="form-control input-text" name="hospital_name" id="hospital_name" required>
+            </div>
+            <div class="form-row">
+              <label for="hospital_id">Hospital ID</label>
+              <input type="text" class="form-control input-text" name="hospital_id" id="hospital_id" required>
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone Number</label>
+              <input type="text" class="form-control input-text" name="phone" id="phone" required>
+            </div>
+            <div class="form-row">
+              <label for="your_email">Your Email</label>
+              <input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
+            </div>
+            <div class="form-row" id="otp">
+              <label for="phone">OTP</label>
+              <a href="" id="resend" style="display:none;">resend OTP</a>
+              <input type="text" class="form-control input-text" id="checkVerify" required>
+            </div>
+            <div class="form-row mb-5">
+              <label for="state">State</label>
+              <select name="state" id="state" class="form-control form-control-lg">
+                <option selected disabled>Select your state</option>
+              </select>
+            </div>
+            <div class="form-row mb-5">
+              <label for="city">City</label>
+              <select name="city" id="city" class="form-control form-control-lg">
+                <option selected disabled>Select your city</option>
+              </select>
+            </div>
+            <div class="form-checkbox">
+              <label class="container">
+                <input type="checkbox" name="checkbox" value="yes" required>
+                <span class="checkmark"></span>
+                <p>I agree to the <a href="#" class="text">Terms and Conditions</a></p>
+              </label>
+            </div>
+            <div class="form-row-last">
+              <input type="submit" name="register" class="register" value="Register" disabled>
+            </div>
+            <a href="hospital_login.php">Already Have an account? LOGIN</a>
+            <div id="hospital_registration_message"></div>
+          </form>
+        </div>
+      </div>
     </section>
-
-    <section class="ftco-section">
-			<div class="container-fluid px-4">
-				<div class="row">
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/h1.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Dr. Ashish</span>
-								
-							<h3><a href="#">Ashish Hospital</a></h3>
-							<p> Home Science College Rd, Napier Town, Jabalpur, Madhya Pradesh 482002</p><br><br>
-							<div><p><a href="https://www.facebook.com/pages/Ashish-Hospital/1459163787662171" class="btn btn-primary">Visit now</a>
-                            <a href="login.php" class="btn btn-middle">Blood required</a>
-                            <a href="https://www.google.com/maps?sxsrf=ACYBGNSSDZ4raKFBw2FTYFyX1GuBg5ckjg:1581843580162&q=ashish+hospital+in+jabalpur&um=1&ie=UTF-8&sa=X&ved=2ahUKEwirmNHo2tXnAhXo_XMBHa_iBkEQ_AUoAXoECBEQAw" class="btn btn-tertiary">Location</a></p></div>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/an.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Dr.</span>
-								
-							</p>
-							<h3><a href="#">Anant Hospital (Multispeciality)</a></h3>
-							<p> Madan Mahal Railway Station Rd, Wright Town, Jabalpur, Madhya Pradesh 482002</p><br>
-							<div><p><br>
-                            <a href="http://ananthospital.org/" class="btn btn-primary">Visit now</a> 
-							<a href="login.php" class="btn btn-middle">Blood required</a>
-							<a href="https://www.google.com/maps/place/Anant+Hospital+(Multispeciality)/@23.1654784,79.9200934,17z/data=!3m1!4b1!4m5!3m4!1s0x3981ae02d5920c73:0x8623eab44b5a82b8!8m2!3d23.1654784!4d79.9222821" class="btn btn-tertiary" >Location</a>
-                            </p></div>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/algin.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Dr.</span>
-								
-							</p>
-							<h3><a href="#">Rani Durgawati Hospital( Elgin) Jabalpur</a></h3>
-							<p>W Central Railway Line, D.R.M Office, Shukla Nagar, Ranipur, Jabalpur, Madhya Pradesh 482001</p>
-							<div><p>  <a href="https://elginhospital.com/" class="btn btn-primary">Visit now</a> 
-							<a href="login.php" class="btn btn-middle">Blood required</a>
-							<a href="https://www.google.com/maps/place/Rani+Durgawati+Hospital(+Elgin)+Jabalpur/@23.1579686,79.9170416,17z/data=!3m1!4b1!4m5!3m4!1s0x3981b1fe200fe945:0xe071004b75ccf43b!8m2!3d23.1579686!4d79.9192303" class="btn btn-tertiary" >Location</a></p></div>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/jabal.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Dr.</span>
-								
-							</p>
-							<h3><a href="#">Jabalpur Hospital and Research Centre</a></h3>
-							<p>Maharshi Dayanand Saraswati Chowk, Napier Town, Jabalpur, Madhya Pradesh 482002</p>
-							<br>
-							<div><p>  <a href="https://jabalpurhospital.com/" class="btn btn-primary">Visit now</a> 
-							<a href="login.php" class="btn btn-middle">Blood required</a>
-							<a href="https://www.google.com/maps/place/Jabalpur+Hospital+and+Research+Centre/@23.1622038,79.9339448,17z/data=!3m1!4b1!4m5!3m4!1s0x3981ae0c1f448c37:0x9f31bc59724bf53f!8m2!3d23.1622038!4d79.9361335" class="btn btn-tertiary" >Location</a></p></div>
-						</div>
-					</div>
-<!--
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-5.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Visit now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-6.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Visit now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-7.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Visit now</a></p>
-						</div>
-					</div>
-					<div class="col-md-3 course ftco-animate">
-						<div class="img" style="background-image: url(images/course-8.jpg);"></div>
-						<div class="text pt-4">
-							<p class="meta d-flex">
-								<span><i class="icon-user mr-2"></i>Mr. Khan</span>
-								<span><i class="icon-table mr-2"></i>10 seats</span>
-								<span><i class="icon-calendar mr-2"></i>4 Years</span>
-							</p>
-							<h3><a href="#">Electric Engineering</a></h3>
-							<p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-							<p><a href="#" class="btn btn-primary">Visit now</a></p>
-						</div>
-					</div>-->
-				</div>
-			</div>
-		</section>
-
-		
-   
+  </div>
   
-  <?php include("hr/include.php") ?>
-
-   <script src="hr/header/head.js"></script>
-
-
-  <script src="front_page/hospital/js2/jquery.min.js"></script>
-  <script src="front_page/hospital/js2/jquery-migrate-3.0.1.min.js"></script>
- <!--<script src="front_page/hospital/js2/popper.min.js"></script>-->
-  <script src="front_page/hospital/js2/bootstrap.min.js"></script>
-  <script src="front_page/hospital/js2/jquery.easing.1.3.js"></script>
-  <script src="front_page/hospital/js2/jquery.waypoints.min.js"></script>
-  <script src="front_page/hospital/js2/jquery.stellar.min.js"></script>
-  <script src="front_page/hospital/js2/owl.carousel.min.js"></script>
-  <script src="front_page/hospital/js2/jquery.magnific-popup.min.js"></script>
-  <script src="front_page/hospital/js2/aos.js"></script>
-  <script src="front_page/hospital/js2/jquery.animateNumber.min.js"></script>
-  <script src="front_page/hospital/js2/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="front_page/hospital/js2/google-map.js"></script>
-  <script src="front_page/hospital/js2/main.js"></script>
-   <script src="hr/js/top_nav.js"></script>
-
   
-    
-  </body>
+  <?php include_once 'component/footer.php'; ?>
+  <div data-moto-back-to-top-button class="moto-back-to-top-button">
+    <a ng-click="toTop($event)" class="moto-back-to-top-button-link">
+      <span class="moto-back-to-top-button-icon fa"></span>
+    </a>
+  </div>
+  <script src="mt-includes/js/website.assets.min.js?_build=1632918612" type="text/javascript" data-cfasync="false"></script>
+  <script src="mt-includes/js/website.assets.min.js?_build=1632918612" type="text/javascript" data-cfasync="false"></script>
+  <script type="text/javascript" data-cfasync="false">
+    var websiteConfig = websiteConfig || {};
+    websiteConfig.address = 'https://template79832.motopreview.com/';
+    websiteConfig.addressHash = 'f73d5bf3fa0d37bb76bd79b197423702';
+    websiteConfig.apiUrl = '/api.php';
+    websiteConfig.preferredLocale = 'en_US';
+    websiteConfig.preferredLanguage = websiteConfig.preferredLocale.substring(0, 2);
+    websiteConfig.back_to_top_button = {
+      "topOffset": 300,
+      "animationTime": 500,
+      "type": "theme"
+    };
+    websiteConfig.popup_preferences = {
+      "loading_error_message": "The content could not be loaded."
+    };
+    websiteConfig.lazy_loading = {
+      "enabled": true
+    };
+    websiteConfig.cookie_notification = {
+      "enabled": false,
+      "content": "<p class=\"moto-text_normal\">This website uses cookies to ensure you get the best experience on our website.<\/p>",
+      "content_hash": "6610aef7f7138423e25ee33c75f23279",
+      "controls": {
+        "visible": "close,accept",
+        "accept": {
+          "label": "Got it",
+          "preset": "default",
+          "size": "medium",
+          "cookie_lifetime": 365
+        }
+      }
+    };
+    angular.module('website.plugins', []);
+  </script>
+  <script src="mt-includes/js/website.min.js?_build=1632918598" type="text/javascript" data-cfasync="false"></script>
+  <script type="text/javascript">
+    $.fn.motoGoogleMap.setApiKey('AIzaSyCPbz3W389x_owB2TlrqPuMEYCTFVuRvMY');
+  </script>
+  <script src="mt-includes/js/website.min.js?_build=1632918598" type="text/javascript" data-cfasync="false"></script>
+  <script type="text/javascript">
+    $.fn.motoGoogleMap.setApiKey("AIzaSyCPbz3W389x_owB2TlrqPuMEYCTFVuRvMY");
+  </script>
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+  <script>
+    // just for the demos, avoids form submit
+    jQuery.validator.setDefaults({
+      debug: true,
+      success: function(label) {
+        label.attr('id', 'valid');
+      },
+    });
+    $("#myform").validate({
+      rules: {
+        password: "required",
+        comfirm_password: {
+          equalTo: "#password"
+        }
+      },
+      messages: {
+        hospital_name: {
+          required: "Please enter a hospital name"
+        },
+        hospital_id: {
+          required: "Please enter a hospital ID"
+        },
+        your_email: {
+          required: "Please provide an email"
+        },
+        password: {
+          required: "Please enter a password"
+        },
+        comfirm_password: {
+          required: "Please enter a password",
+          equalTo: "Wrong Password"
+        }
+      }
+    });
+  </script>
+  <script src="src/js/jquery.min.js"></script>
+  <script src="config/api_url.js"></script>
+  <script src="ajax/b_location.js"></script>
+  <script src="ajax/b_hospital_registration.js"></script>
+</body>
+
 </html>

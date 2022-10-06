@@ -1,0 +1,288 @@
+[15-Jun-2022 20:02:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[15-Jun-2022 20:15:28 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[15-Jun-2022 20:41:10 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[15-Jun-2022 20:47:08 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[15-Jun-2022 20:52:23 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[15-Jun-2022 21:02:07 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 15 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[16-Jun-2022 13:23:30 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 16 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[16-Jun-2022 13:52:23 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 16 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[16-Jun-2022 13:56:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 16 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[16-Jun-2022 14:02:43 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2198
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 16 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2198
+[16-Jun-2022 14:05:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 16 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[16-Jun-2022 14:33:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 16 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[18-Jun-2022 05:18:40 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 18 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('chaitanyarai30@...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[18-Jun-2022 05:25:16 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 18 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[18-Jun-2022 05:26:33 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 18 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[18-Jun-2022 05:34:01 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2198
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 18 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2198
+[18-Jun-2022 05:37:04 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 18 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[18-Jun-2022 05:42:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Sat, 18 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('manish.sah.cs19...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[23-Jun-2022 12:46:04 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 23 J...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/b_hospital_registration.php(16): sendMail('msah74915@gmail...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[05-Jul-2022 13:00:35 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 5 Ju...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('chaitanyarai19@...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[05-Jul-2022 13:04:20 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 5 Ju...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('chaitanyarai19@...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[05-Jul-2022 13:05:10 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 5 Ju...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('chaitanyarai19@...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[05-Jul-2022 13:05:21 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:2178
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1988): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1654): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Tue, 5 Ju...', 'This is a multi...')
+#2 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1492): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home3/blood33a/public_html/controllers/mail.php(13): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home3/blood33a/public_html/api/donor_registration.php(17): sendMail('chaitanyarai19@...', 'One Time Passwo...', '<h4>Bloodandyti...', 'Bloodanytime se...')
+#5 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 2178
+[19-Sep-2022 15:31:11 UTC] PHP Warning:  Undefined variable $new_name in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:31:11 UTC] PHP Warning:  move_uploaded_file(src/upload/): Failed to open stream: No such file or directory in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:31:11 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpITYp4n&quot; to &quot;src/upload/&quot; in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:31:13 UTC] PHP Warning:  Undefined variable $new_name in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:31:13 UTC] PHP Warning:  move_uploaded_file(src/upload/): Failed to open stream: No such file or directory in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:31:13 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpGXGiRr&quot; to &quot;src/upload/&quot; in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:34:24 UTC] PHP Warning:  Undefined variable $new_name in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:34:24 UTC] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home3/blood33a/public_html/api/donor_center.php on line 26
+[19-Sep-2022 15:34:24 UTC] PHP Warning:  move_uploaded_file(): Unable to move &quot;/tmp/phpFrt1LQ&quot; to &quot;../src/upload/&quot; in /home3/blood33a/public_html/api/donor_center.php on line 26
+[03-Oct-2022 17:48:56 UTC] PHP Warning:  Undefined array key "city" in /home3/blood33a/public_html/api/donor_registration.php on line 32
+[03-Oct-2022 17:52:35 UTC] PHP Warning:  Undefined array key "state" in /home3/blood33a/public_html/api/donor_registration.php on line 32
+[03-Oct-2022 17:52:53 UTC] PHP Warning:  Undefined array key "state" in /home3/blood33a/public_html/api/donor_registration.php on line 32
+[04-Oct-2022 06:39:11 UTC] PHP Warning:  Undefined array key "address" in /home3/blood33a/public_html/api/donor_registration.php on line 32
+[04-Oct-2022 06:40:54 UTC] PHP Warning:  Undefined array key "address" in /home3/blood33a/public_html/api/donor_registration.php on line 32
+[04-Oct-2022 12:52:57 UTC] PHP Warning:  Undefined variable $mobile in /home3/blood33a/public_html/api/donor_registration.php on line 98
+[04-Oct-2022 12:52:57 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:1092
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /home3/blood33a/public_html/controllers/mail.php(5): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 /home3/blood33a/public_html/api/donor_registration.php(149): sendMail('', 'Registered', '<h4>Thanks for ...', 'Thanks for Regi...')
+#3 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 1092
+[04-Oct-2022 12:56:06 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php:1092
+Stack trace:
+#0 /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress('to', '', '')
+#1 /home3/blood33a/public_html/controllers/mail.php(5): PHPMailer\PHPMailer\PHPMailer->addAddress('')
+#2 /home3/blood33a/public_html/api/donor_registration.php(149): sendMail('', 'Registered', '<h4>Thanks for ...', 'Thanks for Regi...')
+#3 {main}
+  thrown in /home3/blood33a/public_html/PHPMailer/src/PHPMailer.php on line 1092
+[05-Oct-2022 06:05:02 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:05:06 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:05:07 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:05:07 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:06:45 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:06:52 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:15 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:33 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:33 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:33 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:33 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:34 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:34 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:35 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:10:35 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:42 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:46 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:46 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:46 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:46 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:47 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:11:48 UTC] PHP Parse error:  Unclosed '{' on line 33 in /home3/blood33a/public_html/api/donor_registration.php on line 111
+[05-Oct-2022 06:32:20 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:24 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:34 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:35 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:35 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:45 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:47 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:32:48 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:33:18 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:33:45 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:33:50 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 06:33:50 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 94
+[05-Oct-2022 09:39:03 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:07 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:07 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:07 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:19 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:19 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:43 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[05-Oct-2022 09:39:46 UTC] PHP Parse error:  syntax error, unexpected identifier "Registered", expecting ")" in /home3/blood33a/public_html/api/donor_registration.php on line 96
+[06-Oct-2022 05:48:30 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:48:34 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:48:34 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:48:43 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:48:43 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:48:43 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:52:44 UTC] PHP Parse error:  syntax error, unexpected token "*", expecting end of file in /home3/blood33a/public_html/api/donor_registration.php on line 79
+[06-Oct-2022 05:54:14 UTC] PHP Parse error:  Unmatched '}' in /home3/blood33a/public_html/api/donor_registration.php on line 114
+[06-Oct-2022 05:54:38 UTC] PHP Parse error:  Unmatched '}' in /home3/blood33a/public_html/api/donor_registration.php on line 114
+[06-Oct-2022 05:54:45 UTC] PHP Parse error:  Unmatched '}' in /home3/blood33a/public_html/api/donor_registration.php on line 114
